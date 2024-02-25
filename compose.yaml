@@ -1,0 +1,5 @@
+version: '3'
+services:
+  my-python-app:
+    build: .
+    command: python main.py
